@@ -122,14 +122,14 @@ const Table = () => {
         </form>
       )}
 
-        <select multiple onChange={handleCompanyFilter}>
+        <select onChange={handleCompanyFilter}>
         <option onChange={handleSelectAll}>All</option>
         <option value="DC United">DC United</option>
         <option value="Manchester United">Manchester United</option>
         <option value="LA Galaxy">LA Galaxy</option>
       </select>
       
-      <select multiple onChange={handleStatusFilter}>
+      <select onChange={handleStatusFilter}>
         <option value="Active">Active</option>
         <option value="Closed">Closed</option>
       </select>
